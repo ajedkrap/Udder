@@ -28,14 +28,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="milk" translatesAutoresizingMaskIntoConstraints="NO" id="SEx-TW-G4w">
+                                <rect key="frame" x="-68" y="460" width="528" height="392"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="392" id="OqD-7d-R2f"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qdn-em-U0a" secondAttribute="trailing" constant="128" id="0xG-36-Vuu"/>
+                            <constraint firstAttribute="trailing" secondItem="SEx-TW-G4w" secondAttribute="trailing" constant="-67" id="5Id-oe-yQD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fDo-yl-4VA" secondAttribute="trailing" constant="100" id="IL5-4h-qd2"/>
+                            <constraint firstAttribute="bottom" secondItem="SEx-TW-G4w" secondAttribute="bottom" id="K0O-8Z-T4i"/>
                             <constraint firstItem="fDo-yl-4VA" firstAttribute="top" secondItem="qdn-em-U0a" secondAttribute="bottom" constant="19" id="LFq-JE-QB5"/>
                             <constraint firstItem="qdn-em-U0a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="43" id="OOp-g8-74x"/>
+                            <constraint firstItem="SEx-TW-G4w" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-68" id="V1F-ZI-eEY"/>
                             <constraint firstItem="qdn-em-U0a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="128" id="jan-oa-kDV"/>
                             <constraint firstItem="fDo-yl-4VA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="vlf-UH-rTf"/>
                         </constraints>
@@ -43,10 +52,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113" y="-2"/>
+            <point key="canvasLocation" x="112.21374045801527" y="-2.1126760563380285"/>
         </scene>
     </scenes>
     <resources>
+        <image name="milk" width="200" height="133.33332824707031"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
